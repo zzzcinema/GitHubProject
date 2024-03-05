@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>freeCodeCamp Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </header>
+<form id="survey-form">
+  <label id="name-label">Name <label><input id="name" name="name" type="text" placeholder="Enter your Name" required ></label></label>
+  <label id="email-label">Email<label><input id="email" type="email" placeholder="Enter your Email" required ></label></label>
+  <label id="number-label">Age<label> <input id="number" type="number" min="18" max="120"  placeholder="18" ></label></label>
+  <label>Which option best describes your current role?<label>
+    <select id="dropdown" >
+      <option>Student</option>
+      <option>Officer</option>
+    </select></label>  </label>
+  <label> Which band is the Top of Britpop?</br>
+    <label><input type="radio" name="band" value="oasis">Oasis</label>
+    <label><input type="radio" name="band" value="blur" checked>Blur</label>
+  </label> Which Music type do you prefer?
+  <label>
+    <input type="checkbox" value="rock" checked > Rock
+  </label>
+  <label>
+    <input type="checkbox" value="pop"> Pop
+  </label>
+  <label>
+    <input type="checkbox" value="jazz" > Jazz
+  </label>
+  <lable> Any comments or suggestions?
+    <label><textarea placeholder="If you can..."></textarea></label>
+  </label>
+  <input type="submit" id="submit" value="Submit">
+</form>
+<p class="hi">hi</p>
+</body>
+</html>
